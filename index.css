@@ -1,1 +1,12 @@
-
+#map {
+    height: 600px; /* Critical: Set height */
+    width: 80%; /* Optional: Adjust width */
+    margin: 20px auto; /* Center the map */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+ 
+h1 {
+    text-align: center;
+    color: #333;
+}
