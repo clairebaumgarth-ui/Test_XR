@@ -7,6 +7,13 @@ var layer = new L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 });
 map.addLayer(layer);
 
+//custom marker icon
+const customIcon = L.icon({
+    iconUrl: 'https://github.com/clairebaumgarth-ui/Test_XR/blob/main/icons/activist-group-icon.webp', 
+    iconSize: [38, 38],
+    iconAnchor: [19, 38],
+    popupAnchor: [0, -38] 
+});
 
 //add a marker to the map
 var hausmania_marker = L.marker([59.919325, 10.752303]);
