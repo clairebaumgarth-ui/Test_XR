@@ -12,13 +12,13 @@ var markerOptions = {
    title: "MyLocation",
    clickable: true,
    icon: customIcon
-}
+} ;
 
 //activist group icon options
 var activist-iconOptions = {
    iconUrl: 'icons/activist-group-icon.webp',
    iconSize: [50, 50]
-}
+} ;
 
 // Creating a custom icon
 var customIcon = L.icon(activist-iconOptions);
