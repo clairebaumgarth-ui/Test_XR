@@ -5,8 +5,16 @@
     border: 2px solid #ddd;
     border-radius: 8px;
 }
- 
+body { 
+    font-family: "Crimson", "Georgia", "Times", serif; 
+}
+
 h1 {
     text-align: center;
     color: #333;
 }
+h2 {
+    text-align: center;
+    color: #333
+}
+
