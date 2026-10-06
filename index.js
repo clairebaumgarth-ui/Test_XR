@@ -9,7 +9,7 @@ map.addLayer(layer);
 
 //custom marker icon
 const customIcon = L.icon({
-    iconUrl: 'https://github.com/clairebaumgarth-ui/Test_XR/blob/main/icons/activist-group-icon.webp', 
+    iconUrl: 'icons/activist-group-icon.webp', 
     iconSize: [38, 38],
     iconAnchor: [19, 38],
     popupAnchor: [0, -38] 
