@@ -16,7 +16,7 @@ const customIcon = L.icon({
 });
 
 //add a marker to the map
-var hausmania_marker = L.marker([59.919325, 10.752303]);
+var hausmania_marker = L.marker([59.919325, 10.752303],{icon: customIcon});
 hausmania_marker.addTo(map);
 hausmania_marker.bindPopup("<b>Hausmania</b><br>XR, Hackeriet, Folkekjøkken"); 
 
