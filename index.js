@@ -7,16 +7,9 @@ var layer = new L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 });
 map.addLayer(layer);
 
-//custom Icons
-const customIcon = L.icon({
-    iconUrl: 'icons/activist-group-icon.webp',
-    iconSize: [38, 38], 
-    iconAnchor: [19, 38], 
-    popupAnchor: [0, -38] 
-});
 
 //add a marker to the map
-var hausmania_marker = L.marker([59.919325, 10.752303],{ icon: customIcon });
+var hausmania_marker = L.marker([59.919325, 10.752303]);
 hausmania_marker.addTo(map);
 hausmania_marker.bindPopup("<b>Hausmania</b><br>XR, Hackeriet, Folkekjøkken"); 
 
