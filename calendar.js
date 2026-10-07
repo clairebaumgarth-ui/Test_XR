@@ -339,7 +339,8 @@
     { eventName: 'Free Tamale Night', calendar: 'Other', color: 'green' },
     { eventName: 'Bowling Team', calendar: 'Other', color: 'green' },
     { eventName: 'Teach Kids to Code', calendar: 'Other', color: 'green' },
-    { eventName: 'Startup Weekend', calendar: 'Other', color: 'green' }
+    { eventName: 'Startup Weekend', calendar: 'Other', color: 'green' },
+    { eventName: 'Birthday Weekend', calendar: 'Kids', color: 'yellow' }
   ];
 
   
