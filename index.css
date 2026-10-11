@@ -1,0 +1,14 @@
+body { 
+    display: block;
+    font-family: "Crimson", "Georgia", "Times", serif; 
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: "FucXed", "FucXed-caps", "Helvetica", "Arial", sans-serif;
+}
+h2 {
+    text-align: center;
+    color: #333
+}
