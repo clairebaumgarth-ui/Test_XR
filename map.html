@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed OpenStreetMap with Leaflet</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="map.css">
+</head>
+<body>
+    <header>
+            <nav>
+                <div class="navbar__container">
+                    <a href="/" id="navbar-logo">Activism - NO</a>
+                    <ul class="navbar__menu">
+                        <li class="navbar__item">
+                            <a id= "l1" href="index.html" class="navbar__links">Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a id= "l2" href="about.html" class="navbar__links">About</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a id= "l3" href="map.html" class="navbar__links">Map</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a id= "l4" href="calendar.html" class="navbar__links">Projects</a>
+                        </li>
+                        <li class="navbar__btn mobile">
+                            <a id= "l5" href="contact.html" class="button">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar_btn desktop">
+                        <a id= "l5" href="contact.html" class="button">Contact</a>
+                    </div>
+
+                    <button 
+                        class="navbar__toggle" 
+                        id ="mobile-menu" 
+                        aria-label = "Toggle Navigation"
+                        aria-expanded=""
+                        false
+                    >
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main>
+                <div class="hero__container">
+                    <div class="hero__content">
+                        <h1>Activist Map</h1>
+                        <h2>Find your local activist organisation or community !</h2>
+                        <!-- Map container -->
+                        <div id="map"></div>
+                    </div>
+                </div>
+           <footer>
+                <div class="footer__container">
+                    <div class="footer__links">
+                        <div class="footer__link-wrapper">     
+                            <div class="footer__link-items">
+                                <h3>About</h3>
+                                <a href="about.html">About</a>
+                                <a href="Activism_List.pdf" target="_blank">List</a>
+                            </div>
+
+                            <div class="footer__link-items">
+                                <h3>Contact</h3>
+                                <a href="mailto:claire.baumgarth@gmail.com">Email</a>
+                                <a href="tel:+33783158670">Phone N°</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    
+        <!-- Leaflet JS -->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <!-- Custom JS -->
+        <script src="index.js"></script>
+    </body>
+</html>
